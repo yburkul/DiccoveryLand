@@ -1,0 +1,684 @@
+.headerContainer
+{
+    width: 100vw;
+    height: 40vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+    background-color: black; 
+}
+body{
+    margin: 0%;
+}
+.Main-logo{
+    width: 25vw;
+    height: 15vh;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.Big-logo, img{
+    width: 50%;
+    height: 40%;
+}
+.Nav-Bar{
+    width: 70vw;
+    height: 15vh;
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+.nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: flex-start;
+    font-size: medium;
+}
+.nav a{
+    color: white;
+}
+a {
+    /* font-size:20px; */
+    text-align:center;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+}
+@media only screen and (min-width :320px) and (max-width :480px) {
+    .headerContainer{
+        width: 100vw;
+        height: 30vh;
+    }
+    .Nav-Bar{
+        display: none;
+    }
+    .Big-logo{
+        width: 120px;
+        height: 30px;
+        position: relative;
+        left: 30px;
+        top:10px;
+    }
+    
+}
+@media only screen and (min-width :481px) and (max-width :768px) {
+    .headerContainer{
+        width: 100vw;
+        height: 30vh;
+    }
+    .Nav-Bar{
+        display: none;
+    }
+    .Big-logo{
+        width: 120px;
+        height: 30px;
+        position: relative;
+        left: 30px;
+        top:10px;
+    }
+    
+}
+@media only screen and (min-width :769px) and (max-width :1024px) {
+    .headerContainer{
+        width: 100vw;
+        height: 30vh;
+    }
+    .Nav-Bar{
+        display: none;
+    }
+    .Big-logo{
+        width: 120px;
+        height: 30px;
+        position: relative;
+        left: 30px;
+        top:10px;
+    }
+    
+}
+
+/* ===========middle section============= */
+.middleSection{
+    width: 100vw;
+    height: 350vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+.Box1{
+    width: 100vw;
+    height: 350vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: black;
+    align-content: space-around;
+}
+.ImageContainer{
+    width: 22.5%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.ImageBox{
+    width: 100%;
+    height: 80%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.labelBox{
+    width: 100%;
+    height: 20%;
+    /* background-color: black; */
+    color: aliceblue;
+    display: flex;
+    align-items: flex-end;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+    width: 100%;
+    height: 10%;
+    /* background-color: black; */
+    color: white;
+    display: flex;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (min-width :320px) and (max-width :480px){
+    .middleSection{
+        flex-direction: column;
+        height: auto;
+    }
+    .Box1{
+        width: 100vw;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* justify-content: space-evenly;
+        background-color: black;
+        align-content: space-around; */
+    }
+    .ImageContainer{
+        width: 45%;
+        height: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    .ImageBox{
+        width: 100%;
+        height: 80%;
+    }
+    
+    .labelBox{
+        width: 100%;
+        height: 60px;
+        /* background-color: black; */
+        color: aliceblue;
+        display: flex;
+        align-items: flex-start;
+        font-size: 12px;
+        /* border: 1px solid red; */
+    }
+    .text{
+        width: 100%;
+        height: 10px;
+        /* background-color: black; */
+        color: white;
+        display: flex;
+        align-items: flex-start;
+        font-size: 8px;
+        /* border: 1px solid red; */
+        position: relative;
+        bottom: 35px;
+    }
+    #img1{
+        display: none;
+    }
+}
+@media screen and (min-width :481px) and (max-width :768px){
+    .middleSection{
+        flex-direction: column;
+        height: auto;
+    }
+    .Box1{
+        width: 100vw;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* justify-content: space-evenly;
+        background-color: black;
+        align-content: space-around; */
+    }
+    .ImageContainer{
+        width: 45%;
+        height: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    .ImageBox{
+        width: 100%;
+        height: 80%;
+    }
+    
+    .labelBox{
+        width: 100%;
+        height: 60px;
+        /* background-color: black; */
+        color: aliceblue;
+        display: flex;
+        align-items: flex-start;
+        font-size: 12px;
+        /* border: 1px solid red; */
+    }
+    .text{
+        width: 100%;
+        height: 10px;
+        /* background-color: black; */
+        color: white;
+        display: flex;
+        align-items: flex-start;
+        font-size: 8px;
+        /* border: 1px solid red; */
+        position: relative;
+        bottom: 35px;
+    }
+    #img1{
+        display: none;
+    }
+}
+
+@media screen and (min-width :769px) and (max-width :1024px){
+    .middleSection{
+        flex-direction: column;
+        height: auto;
+    }
+    .Box1{
+        width: 100vw;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* justify-content: space-evenly;
+        background-color: black;
+        align-content: space-around; */
+    }
+    .ImageContainer{
+        width: 30%;
+        height: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    .ImageBox{
+        width: 100%;
+        height: 80%;
+    }
+    
+    .labelBox{
+        width: 100%;
+        height: 60px;
+        /* background-color: black; */
+        color: aliceblue;
+        display: flex;
+        align-items: flex-start;
+        font-size: 12px;
+        /* border: 1px solid red; */
+    }
+    .text{
+        width: 100%;
+        height: 10px;
+        /* background-color: black; */
+        color: white;
+        display: flex;
+        align-items: flex-start;
+        font-size: 8px;
+        /* border: 1px solid red; */
+        position: relative;
+        bottom: 35px;
+    }
+    #img1{
+        display: none;
+    }
+}
+
+/* ==========Footer section=========== */
+.bottomSection{
+    width: 100vw;
+    height: 60vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.829);
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mainBottom1{
+    width: 100vw;
+    height: 60vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+
+}
+.bottomBox1
+{
+    width: 50vw;
+    height: 30vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-around;
+}
+.logo2{
+    width: 30vw;
+    height: 10vh; 
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo{
+    width: 10%;
+    height: 50%;
+}
+.bottomBox2
+{
+    width: 50vw;
+    height: 30vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+.bottomHeading{
+    width: 33vw;
+    height: 10vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.bottomBox2 a{
+    font-size: smaller;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    
+}
+.mainBottom2{
+    width: 50vw;
+    height: 60vh;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: space-around;
+
+}
+.mainBottom2 a{
+    font-size: medium;
+}
+.bottomBox3{
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    /* border: 1px solid green; */
+}
+#smallheading{
+    font-size: 12px;
+}
+.footer a
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+} 
+#number{
+    display: flex;
+    flex-direction: column;
+}
+.bottomBox4{
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    /* border: 1px solid yellow; */
+}
+.bottomBox5{
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    /* border: 1px solid red; */
+}
+
+@media screen and (min-width :320px) and (max-width :480px){
+    .bottomSection{
+    
+        width: 100vw;
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* border: 1px solid red; */
+        
+    }
+    .mainbottom1{
+      
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid green; */
+        position: relative;
+        bottom: 20px;
+    }
+    .bottomBox1{
+        width: 60vw;
+        height: auto;
+        /* border: 1px solid brown; */
+        position: relative;
+        right: 20px;
+    }
+    .bottomBox2
+    {
+        width: 100vw;
+        height: auto;
+        position: relative;
+        top: 550px;
+        /* border: 1px solid red; */
+        /* font-size: large;
+        color: aliceblue; */
+    }
+    .bottomHeading{
+        width: 100vw;
+        position: relative;
+        /* right: 20px; */
+        top:15px;
+        /* left: 30px; */
+    }
+    .mainBottom2{
+        width: 100vw;
+        flex-direction: row;
+        position: relative;
+        bottom: 30px;
+        justify-content: center;
+        /* border: 1px solid red; */
+    }
+    .mainbottom2{
+        width: 100vw;
+        height: 50vh;
+        position: relative;
+        /* bottom: 90px; */
+    }
+    .bottomBox3{
+        width: 80%;
+        height: 35%;
+        position: relative;
+        /* border: 1px solid rebeccapurple; */
+        bottom: 20px;
+        right: 20px;
+    }
+    .bottomBox4{
+        width: 41%;
+        height: 50%;
+        position: relative;
+        top: 10px;
+        right: 20px;
+        /* border: 1px solid red; */
+
+    }
+    .bottomBox5{
+        width: 41%;
+        height: 50%;
+        position: relative;
+        top: 10px;
+        /* border: 1px solid green; */
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width :481px) and (max-width :768px){
+    .bottomSection{
+    
+        width: 100vw;
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* border: 1px solid red; */
+        
+    }
+    .mainbottom1{
+      
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid green; */
+        position: relative;
+        bottom: 20px;
+    }
+    .bottomBox1{
+        width: 60vw;
+        height: auto;
+        /* border: 1px solid brown; */
+        position: relative;
+        right: 20px;
+    }
+    .bottomBox2
+    {
+        width: 100vw;
+        height: 10vh;
+        position: relative;
+        top: 550px;
+        /* border: 1px solid red; */
+        /* font-size: large; */
+        /* color: aliceblue; */
+    }
+    .bottomHeading{
+        width: 100vw;
+        position: relative;
+        /* right: 20px; */
+        top:15px;
+        left: 30px;
+    }
+    .mainBottom2{
+        width: 100vw;
+        flex-direction: row;
+        position: relative;
+        bottom: 30px;
+        justify-content: center;
+        /* border: 1px solid red; */
+    }
+    .mainbottom2{
+        width: 100vw;
+        height: 50vh;
+        position: relative;
+        /* bottom: 90px; */
+    }
+    .bottomBox3{
+        width: 80%;
+        height: 35%;
+        position: relative;
+        /* border: 1px solid rebeccapurple; */
+        bottom: 20px;
+        right: 20px;
+    }
+    .bottomBox4{
+        width: 41%;
+        height: 50%;
+        position: relative;
+        top: 10px;
+        right: 20px;
+        /* border: 1px solid red; */
+
+    }
+    .bottomBox5{
+        width: 41%;
+        height: 50%;
+        position: relative;
+        top: 10px;
+        /* border: 1px solid green; */
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width :769px) and (max-width :1024px){
+    .bottomSection{
+    
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        /* border: 1px solid red; */
+        
+    }
+    .mainbottom1{
+        width: 30vw;
+        height: auto;
+        /* border: 1px solid greenyellow; */
+        display: flex;
+        flex-direction: column;
+    }
+    .bottomBox1{
+        width: 30vw;
+        height: 10vh;
+        /* border: 1px solid yellow; */
+        position: relative;
+        top:70px;
+    }
+    .bottomBox2
+    {
+        width: 100vw;
+        height: 10vh;
+        position: relative;
+        top: 250px;
+        /* border: 1px solid red; */
+    }
+    .bottomHeading{
+        width: 100vw;
+        position: relative;
+        /* right: 20px; */
+        top:15px;
+        left: 25px;
+    }
+    .mainbottom2{
+        width: 70vw;
+        height: auto;
+        /* border: 1px solid gold; */
+    }
+    .mainBottom2{
+        width: 70vw;
+        height: auto;
+        /* border: 1px solid green; */
+        justify-content: space-between;
+        position: relative;
+        top: 90px;
+    }
+    .bottomBox3{
+        width: 22vw;
+        /* border: 1px solid green; */
+    }
+    .bottomBox4{
+        width: 20vw;
+        height: auto;
+
+    }
+    .bottomBox5{
+        width: 20vw;
+        height: auto;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        left:30px;
+    }
+}

@@ -1,0 +1,319 @@
+.headerContainer
+{
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-repeat: no-repeat; */
+    background-size: 100% 100%;  
+    /* background-color: black;  */
+}
+body{
+    margin: 0%;
+}
+.main-Logo{
+    width: 35vw;
+    height: 30vh;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.logo-main, img{
+    width: 35%;
+    height: 20%;
+}
+.nav-bar{
+    width: 60vw;
+    height: 25vh;
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+  
+}
+.nav
+{
+    /* width: 50%;
+    height: 50px; */
+    border: 0px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: flex-start;
+    font-size: medium;
+    /* padding-left: 45%;
+    margin-top: 3%; */
+}
+.nav a{
+    color: white;
+}
+a {
+    font-size:20px;
+    text-align:center;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+.HeadingName h1{
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 15%;
+    margin-top: 6%; */
+    font-size:50px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color: white;
+}
+.HeadingName{
+    /* border: 1px solid red; */
+    width: 70vw;
+    height: 60vh;
+}
+.mainhead{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.bottomheading{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* border: 1px solid red; */
+    width: 35vw;
+    height: 10vh
+    
+}
+.bottomHead{
+    /* border: 1px solid red; */
+     color: white;
+}
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+.videoPlayer {
+    position: relative;
+    /* bottom: 340px; */
+    left: 0px;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .video-player{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .video-player{
+        width: auto;
+        height: 100%;
+    }
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ====================Three-box-container2=========== */
+.Three-box-container2{
+    width: 100vw;
+    height: 150vh;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 50px;
+    
+}
+.img-Box2-1{
+    width: 32vw;
+    height: 95vh;
+    border: 1px solid black;
+    position: relative;
+    top: 80px;
+    right: 70px;
+}
+.paraImg-Box2-1{
+    width: 35vw;
+    height: 110vh;
+    border: 1px solid black;
+    position: relative;
+    top: 80px;
+    left: 10px;
+
+}
+#boxthreeImg{
+    width: 100%;
+    height: 100%;
+}
+
+.paraImg-Box2-1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid green; */
+}
+#head2{
+    width: 50%;
+    height: 12%;
+    font-size: 40px;
+    position: relative;
+    top: 0px;
+    /* left: 10px; */
+    color: black;
+    /* border: 1px solid green; */
+}
+#para-text2{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    position: relative;
+    top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+    line-height: 200%;
+    color: black;
+    /* border: 1px solid red; */
+}
+.img-para2-2{
+    width: 95%;
+    height: 40%;
+    /* border: 1px solid red; */
+    position: relative;
+    top: 110px;
+    right: 17px;
+}
+/* =============================================================== */
+
+/*========== threeboxcontainer======== */
+.ThreeBox-Container1{
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid red;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+}
+.middle-Box1{
+    width: 100%;
+    height: 32.3%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.grey-box1{
+    width: 830px;
+    height: 320px;
+    border: 1px solid grey;
+    z-index: 1;
+    position: absolute;
+    right: 160px;
+    background-color: grey;
+    /* top: 320px; */
+    bottom: 20px;
+}
+
+ .img-box1{
+    width: 970px;
+    height: 560px;
+     /* width: 1000%; */
+    height: 80%;
+    border: 1px solid red;
+    z-index: 15;
+    position: absolute;
+    left: 430px;
+    top: 50px;
+    background-color: red;
+ }
+
+.white-box1{
+    width: 480px;
+    height: 390px;
+    /* border: 1px solid yellow; */
+    z-index: 16;
+    position: absolute;
+    right: 730px;
+    top: 90px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    /* justify-items: start; */
+}
+.heading1{
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-left: 35px;
+    
+}
+.paragraph1{
+    width: 60%;
+    height: 60%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+    line-height: 200%;
+}
+.button1{
+    width: 40%;
+    height: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 35px;
+}
+#Button1{
+    width: 80%;
+    height: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+}
+
+/* 
+.imgbox1{
+    width: 100vw;
+    height: 70vh;
+    border: 1px solid red;
+    display: flex;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/139/img_5dabbd1a34149dcaed83515ff1526a0f.jpg");
+    justify-content: center;
+    align-items: center;
+
+}
+#imgId{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+}
+#h1Id{
+    position: relative;
+    /* right: 500px; */
+    /* z-index: 5;
+    color: white;
+} */ 

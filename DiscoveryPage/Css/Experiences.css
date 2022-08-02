@@ -1,0 +1,647 @@
+.headerContainer
+{
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-size: 100% 100%;  
+}
+body{
+    margin: 0%;
+}
+.main-Logo{
+    width: 35vw;
+    height: 30vh;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.logo-main, img{
+    width: 35%;
+    height: 20%;
+}
+.nav-bar{
+    width: 60vw;
+    height: 25vh;
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+  
+}
+
+.nav
+{
+    border: 0px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: flex-start;
+    font-size: medium;
+}
+.nav a{
+    color: white;
+}
+a {
+    font-size:20px;
+    text-align:center;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+.HeadingName h1{
+    display: flex;
+    flex-direction: row;
+    font-size:50px;
+    color: white;
+}
+.HeadingName{
+    /* border: 1px solid red; */
+    width: 70vw;
+    height: 60vh;
+}
+.mainhead{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.bottomheading{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* border: 1px solid red; */
+    width: 35vw;
+    height: 10vh
+    
+}
+.bottomHead{
+    /* border: 1px solid red; */
+     color: white;
+}
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 10;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+.videoPlayer {
+    position: relative;
+    left: 0px;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .video-player{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .video-player{
+        width: auto;
+        height: 100%;
+    }
+}
+
+/*===========Middle-Text-Container ============*/
+
+.MiddleContainer1 {
+    width: 100vw;
+    height: 170vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.middlePara{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    background-color:white;
+    color: black;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid blue; */
+}
+#centerText{
+    width: 60%;
+    height: 30%;
+    text-align: center;
+}
+.middleContent{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid green; */
+}
+.middleContent-text{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+#heading{
+    width: 50%;
+    height: 20%;
+    font-size: 40px;
+    position: relative;
+    top: 80px;
+    left: 120px;
+    /* border: 1px solid green; */
+}
+#para{
+    width: 50%;
+    height: 80%;
+    position: relative;
+    top: 80px;
+    left: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+    line-height: 200%;
+}
+.middleContent-img{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+#middle-img{
+    width: 70%;
+    height: 80%;
+}
+
+
+/*========== threeboxcontainer======== */
+.ThreeBox-Container1{
+    width: 100vw;
+    height: 120vh;
+    /* border: 1px solid red; */
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.middle-Box1{
+    width: 100%;
+    height: 32.3%;
+    display: flex;
+    flex-direction: row;
+}
+.grey-box1{
+    width: 830px;
+    height: 320px;
+    border: 1px solid grey;
+    z-index: 1;
+    position: absolute;
+    left: 160px;
+    background-color: grey;
+    top: 320px;
+}
+.img-box1{
+    width: 970px;
+    height: 560px;
+    z-index: 15;
+    position: absolute;
+    right: 430px;
+    top: 50px;
+    background-color: red;
+}
+.white-box1{
+    width: 500px;
+    height: 430px;
+    /* border: 1px solid yellow; */
+    z-index: 16;
+    position: absolute;
+    left: 670px;
+    top: 120px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+}
+.heading1{
+    width: 100%;
+    height: 15%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:50px;
+    left: 30px;
+    
+}
+.paragraph1{
+    width: 60%;
+    height: 60%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+    line-height: 200%;
+    position: relative;
+    top:50px;
+    left: 30px;
+}
+.button1{
+    width: 50%;
+    height: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    top:30px;
+    left: 30px;
+}
+#Button1{
+    width: 70%;
+    height: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+}
+#golf{
+    font-size: xx-large;
+}
+/* ==========Second-Container============ */
+.ThreeBox-Container2{
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid red; */
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.middle-Box2{
+    width: 100%;
+    height: 32.3%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.grey-box2{
+    width: 830px;
+    height: 320px;
+    /* border: 1px solid grey; */
+    z-index: 1;
+    position: absolute;
+    right: 160px;
+    background-color: grey;
+    /* top: 320px; */
+    bottom: 20px;
+}
+
+ .img-box2{
+    width: 970px;
+    height: 560px;
+    height: 80%;
+    /* border: 1px solid red; */
+    z-index: 15;
+    position: absolute;
+    left: 430px;
+    top: 50px;
+    background-color: red;
+ }
+
+.white-box2{
+    width: 480px;
+    height: 420px;
+    /* border: 1px solid yellow; */
+    z-index: 16;
+    position: absolute;
+    right: 730px;
+    top: 90px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+}
+.heading2{
+    width: 100%;
+    height: 15%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:50px;
+    left: 30px;
+}
+.paragraph2{
+    width: 60%;
+    height: 60%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+    line-height: 200%;
+    position: relative;
+    top:50px;
+    left: 30px;
+}
+.button2{
+    width: 50%;
+    height: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    top:30px;
+    left: 30px
+}
+#Button2{
+    width: 70%;
+    height: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+}
+#outoor{
+    font-size: xx-large;
+}
+/* ==========Third-Container============ */
+.ThreeBox-Container3{
+    width: 100vw;
+    height: 120vh;
+    /* border: 1px solid red; */
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.middle-Box3{
+    width: 100%;
+    height: 32.3%;
+    display: flex;
+    flex-direction: row;
+}
+.grey-box3{
+    width: 830px;
+    height: 320px;
+    border: 1px solid grey;
+    z-index: 1;
+    position: absolute;
+    left: 160px;
+    background-color: grey;
+    top: 320px;
+}
+.img-box3{
+    width: 970px;
+    height: 560px;
+    /* border: 1px solid red; */
+    z-index: 15;
+    position: absolute;
+    right: 430px;
+    top: 50px;
+    background-color: red;
+}
+.white-box3{
+    width: 500px;
+    height: 430px;
+    /* border: 1px solid yellow; */
+    z-index: 16;
+    position: absolute;
+    left: 670px;
+    top: 120px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+}
+.heading3{
+    width: 100%;
+    height: 15%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:50px;
+    left: 30px;
+    
+}
+.paragraph3{
+    width: 60%;
+    height: 60%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+    line-height: 200%;
+    position: relative;
+    top:50px;
+    left: 30px;
+}
+.button3{
+    width: 50%;
+    height: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    top:30px;
+    left: 30px;
+}
+#Button3{
+    width: 70%;
+    height: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+}
+#wellness{
+    font-size: xx-large;
+}
+/* =========================OurWorld ==========================*/
+.OurWorld{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Assert/Experiences/ourworld4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+.world-our{
+    width: 30vw;
+    height: 20vh;
+    /* border: 1px solid green; */
+    position: relative;
+    right: 20px;
+}
+.OurWorld h1{
+    width: 30vw;
+    height: 20vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid red; */
+}
+.button4{
+    width: 15%;
+    height: 15%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+#Button4{
+    width: 80%;
+    height: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.9;
+    background: none;
+    color: white;
+    font-size: larger;
+}
+/*=====================footersection============= */
+.bottomSection{
+    width: 100vw;
+    height: 60vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.829);
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mainBottom1{
+    width: 100vw;
+    height: 60vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+
+}
+.bottomBox1
+{
+    width: 50vw;
+    height: 30vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-around;
+}
+.logo2{
+    width: 30vw;
+    height: 10vh; 
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo{
+    width: 10%;
+    height: 50%;
+}
+.bottomBox2
+{
+    width: 50vw;
+    height: 30vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+.bottomHeading{
+    width: 33vw;
+    height: 10vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.mainBottom2{
+    width: 50vw;
+    height: 60vh;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: space-around;
+
+}
+.mainBottom2 a{
+    font-size: medium;
+}
+.bottomBox2
+{
+    width: 50vw;
+    height: 30vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+.bottomBox2 a{
+    font-size: small;
+}
+.bottomBox3{
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    /* border: 1px solid green; */
+}
+#smallheading{
+    font-size: 12px;
+}
+.footer a
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+} 
+#number{
+    display: flex;
+    flex-direction: column;
+}
+.bottomBox4{
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    /* border: 1px solid yellow; */
+}
+.bottomBox5{
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    /* border: 1px solid red; */
+}
+img{
+    width: 100%;
+    height: 100%;
+}
